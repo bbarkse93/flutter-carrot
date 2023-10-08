@@ -59,15 +59,18 @@ class _SplashScreenState extends State<SplashScreen> {
                           child: Container(
                             child: Column(
                               children: [
-                                Text(
-                                  "nectar",
-                                  style: TextStyle(
-                                      fontSize: 60, color: Colors.white),
+                                SizedBox(
+                                  height: 60,
+                                  child: Text(
+                                    "nectar",
+                                    style: TextStyle(fontSize: 60, color: Colors.white),
+                                  ),
                                 ),
-                                Text(
-                                  "online groceriet",
-                                  style: TextStyle(
-                                      fontSize: 20, color: Colors.white),
+                                SizedBox(
+                                  child: Text(
+                                    "online groceriet",
+                                    style: TextStyle(fontSize: 20, color: Colors.white, letterSpacing: 2),
+                                  ),
                                 ),
                               ],
                             ),
